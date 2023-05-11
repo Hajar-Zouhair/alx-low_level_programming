@@ -11,10 +11,10 @@
 int main(void)
 {
 	int n;
+	char ch;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	char ch;
 	for(ch = 'a'; ch <= 'z'; ch++)
 	{
 		putchar(ch);
