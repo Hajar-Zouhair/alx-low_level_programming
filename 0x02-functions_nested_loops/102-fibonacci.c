@@ -12,12 +12,12 @@ int main(void)
 	int i;
 	int F0 = 0;
 	int F1 = 1;
-	int s;
+	unsigned s;
 
 	for (i = 0; i <= 49; i++)
 	{
 		s = F1 + F0;
-		printf("%lu", s);
+		printf("%u", s);
 		F0 = F1;
 		F1 = s;
 		if (i == 49)
