@@ -7,6 +7,7 @@
  *
  * The abs() function computes the absolute value of the integer j.
  *
+ * @n : number
  */
 
 int _abs(int n)
