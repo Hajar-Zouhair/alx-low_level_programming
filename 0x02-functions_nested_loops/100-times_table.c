@@ -61,12 +61,12 @@ void print_times_table(int n)
 					else
 					{
 						q = (int) (k / 100);
-						putchar(q + 48);
+						_putchar(q + 48);
 						r = k % 100;
 						q = (int) (r / 10);
-						putchar(q + 48);
+						_putchar(q + 48);
 						r = q % 10;
-						putchar(r + 48);
+						_putchar(r + 48);
 					}
 				}
 			}
