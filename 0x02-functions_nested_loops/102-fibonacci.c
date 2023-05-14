@@ -20,8 +20,10 @@ int main(void)
 		printf("%lu", s);
 		F0 = F1;
 		F1 = s;
-		if (i == 49) printf("\n");
-		else printf(", ");
+		if (i == 49)
+			printf("\n");
+		else
+			printf(", ");
 	}
 
 	return (0);
