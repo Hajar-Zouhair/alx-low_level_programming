@@ -16,7 +16,7 @@ int main(void)
 
 	for (i = 0; i <= 49; i++)
 	{
-		s = F1 + F0
+		s = F1 + F0;
 		printf("%d", s);
 		F0 = F1;
 		F1 = s;
