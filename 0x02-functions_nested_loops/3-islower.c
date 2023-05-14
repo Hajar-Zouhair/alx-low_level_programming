@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * int _islower - checks for lowercase character.
+ * _islower - checks for lowercase character.
  * Return: Always 0 (Success)
  *
  * These functions check whether c, which must have the value
