@@ -23,11 +23,11 @@ void times_table(void)
 			_putchar(' ');
 			if (k <= 9)
 			{
-				_putchar(k + 48);
-				if(j < 9)
+				if (j < 9)
 				{
 					_putchar(' ');
 				}
+				_putchar(k + 48);
 			}
 			else
 			{
