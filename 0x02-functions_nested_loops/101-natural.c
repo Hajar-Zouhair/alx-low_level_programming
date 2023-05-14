@@ -12,6 +12,7 @@ int main(void)
 {
 	int s = 0;
 	int i = 1024;
+
 	while (i > 2)
 	{
 		i--;
