@@ -22,6 +22,7 @@ int main(void)
 		F0 = F1;
 		F1 = s;
 	}
+	printf("\n");
 
 	return (0);
 }
