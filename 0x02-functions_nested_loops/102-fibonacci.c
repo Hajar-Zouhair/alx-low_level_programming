@@ -10,20 +10,17 @@
 int main(void)
 {
 	int i;
-	int F0 = 0;
-	int F1 = 1;
-	long unsigned s;
+	long int F0 = 1;
+	long int F1 = 2;
+	long int s;
 
-	for (i = 0; i <= 49; i++)
+	printf("%ld, %ld", F0, F1);
+	for (i = 0; i <= 47; i++)
 	{
 		s = F1 + F0;
-		printf("%lu", s);
+		printf(", %ld", s);
 		F0 = F1;
 		F1 = s;
-		if (i == 49)
-			printf("\n");
-		else
-			printf(", ");
 	}
 
 	return (0);
