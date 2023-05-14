@@ -4,9 +4,9 @@
  * _isalpha - checks for alphabetic character.
  * Return: Always 0 (Success)
  *
- * These functions check whether c, 
- * which must have the value of an unsigned char or EOF, 
- * falls into a certain  character  class according to 
+ * These functions check whether c,
+ * which must have the value of an unsigned char or EOF,
+ * falls into a certain  character  class according to
  * the specified locale.
  *
  * @c : character in acii code
